@@ -1,5 +1,5 @@
 {
-  "name": "my-egx-auth-app",
+  "name": "fastapi-cloudfare1",
   "main": "index.js",
   "compatibility_date": "2025-07-27",
   "workers_dev": true,
