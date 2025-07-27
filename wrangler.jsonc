@@ -1,0 +1,12 @@
+{
+  "name": "my-egx-auth-app",
+  "main": "index.js",
+  "compatibility_date": "2025-07-27",
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "USERS",
+      "id": "f87ce5fe62594ca2b5cbfe5f78193be6"
+    }
+  ]
+}
