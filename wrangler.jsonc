@@ -1,5 +1,5 @@
 {
-  "name": "my-egx-auth-app",
+  "name": "openauth-template",
   "main": "index.js",
   "compatibility_date": "2025-07-27",
   "workers_dev": true,
