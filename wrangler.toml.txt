@@ -1,0 +1,8 @@
+name = "my-egx-auth-app"               # اسم التطبيق (عربي أو إنجليزي بدون مسافات)
+main = "index.js"                      # اسم ملف الخادم الرئيسي
+compatibility_date = "2025-07-27"      # التاريخ المناسب لتوافق بيئة التشغيل
+workers_dev = true                     # يحدد استخدام نطاق .workers.dev بشكل تلقائي
+
+[[kv_namespaces]]
+binding = "USERS"
+id = "f87ce5fe62594ca2b5cbfe5f78193be6"   # هذا الـ ID اللي Cloudflare أعطاه لك بعد إنشاء namespace

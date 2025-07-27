@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Admin Panel</title></head>
+<body>
+  <h2>Admin - User List</h2>
+  <button onclick="loadUsers()">Reload</button>
+  <ul id="usersList"></ul>
+
+  <script>
+    async function loadUsers() {
+      const res = await fetch('/admin/users')
+      const users = await res.json()
+      document.getElementById('usersList').innerHTML = users.map(
+        u => `<li>${u.name} (${u.password})</li>`
+      ).join('')
+    }
+  </script>
+</body>
+</html>
